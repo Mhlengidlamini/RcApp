@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single"     android:id="@+id/menu_group">
+
+
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/user__1_"
+            android:title="@string/Profile" />
+        <item
+            android:id="@+id/activity_stream"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/activity_stream" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/message"
+            android:title="@string/chat" />
+        <item
+            android:id="@+id/tutors"
+            android:icon="@drawable/teacher"
+            android:title="@string/tutors" />
+    </group>
+
+
+    <item
+
+        android:id="@+id/signout"
+        android:icon="@drawable/logout"
+        android:title="Sign out"
+        app:layout_constraintTop_toBottomOf="@id/menu_group"
+        app:layout_constraintBottom_toBottomOf="parent"  />
+
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_modules">
+        <item>My Modules</item>
+        <item>Module 1</item>
+        <item>Module 2</item>
+        <!-- Add more modules as needed -->
+    </string-array>
+
+    <string-array name="module_1_tutors">
+        <item>Tutor 1</item>
+        <item>Tutor 2</item>
+        <!-- Add more tutors for Module 1 -->
+    </string-array>
+
+    <string-array name="module_2_tutors">
+        <item>Tutor A</item>
+        <item>Tutor B</item>
+        <!-- Add more tutors for Module 2 -->
+    </string-array>
+
+    <!-- Define arrays for other modules as needed -->
+</resources>

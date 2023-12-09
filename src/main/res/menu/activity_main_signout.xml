@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single"     android:id="@+id/menu_group">
+
+        <item
+
+            android:id="@+id/signout"
+            android:icon="@drawable/logout"
+            android:title="Sign out"
+            app:layout_constraintTop_toBottomOf="@id/menu_group"
+            app:layout_constraintBottom_toBottomOf="parent"  />
+
+    </group>
+
+
+
+
+
+</menu>
