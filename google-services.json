@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "800636582180",
+    "firebase_url": "https://rc-tutors-default-rtdb.firebaseio.com",
+    "project_id": "rc-tutors",
+    "storage_bucket": "rc-tutors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800636582180:android:41793e91d3c32c31a55bb1",
+        "android_client_info": {
+          "package_name": "com.example.myrcapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnN-WprPyLUIaOl3h77jvlvgzN_Q3Wjm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
